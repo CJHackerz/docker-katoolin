@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+MAINTAINER sc.cjhackerz@yahoo.com
 RUN apt update
 RUN apt install git -y
 RUN apt install python -y
